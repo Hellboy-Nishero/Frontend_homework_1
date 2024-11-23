@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.shape {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.rectangle {
+  width: 200px;
+}
+
+.account-managment {
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #ccc;
+  border-radius: 12px;
+  padding: 16px 12px;
+}
+.account-managment div {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+}
+.account-managment div button {
+  max-width: 100px;
+  width: 100%;
+  font-size: 20px;
+  background-color: #ddd;
+  border-radius: 6px;
+  padding: 4px 8px;
+  border: none;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.account-managment div button:hover {
+  background-color: #efefef;
+}
+.account-managment div input {
+  font-size: 16px;
+  padding: 8px;
+  outline: none;
+}/*# sourceMappingURL=style.css.map */
